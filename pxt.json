@@ -1,0 +1,35 @@
+{
+    "name": "Flee My Valentine",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "valentine-special": "github:microsoft/arcade-tutorial-extensions/valentine"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts",
+        "tutorial.custom.ts",
+        "pxt.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.10.36",
+        "tag": "v1.10.36",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/3a5a7e13703edf0412c17bdb9b1469e282a5b31b",
+        "target": "1.11.37",
+        "pxt": "8.3.9",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
